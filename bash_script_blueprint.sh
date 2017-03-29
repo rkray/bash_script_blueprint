@@ -6,6 +6,10 @@
 #   genreal blueprint for bash scripts
 ################################################################################
 
+# ToDo
+# - signal handling
+# - cleanup
+
 
 LOGFILE=/tmp/$(basename ${0%.sh})_$(date "+%F").log
 
