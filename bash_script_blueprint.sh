@@ -42,7 +42,7 @@ function log(){
 function main(){
     echo main function
     [ -v option ] && echo "option: ${option}"
-    [ -v flag ]   && echo "flag setted"
+    [ -v flag ]   && echo "flag set"
 }
 
 ################################################################################
